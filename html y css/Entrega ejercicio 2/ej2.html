@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio sesión 2</title>
+    <title>Ejercicio sesión 2- Curso HTML y CSS</title>
 </head>
 <body>
     <!-- Crea un formulario en el que haya que introducir los siguientes datos:
@@ -14,24 +14,24 @@
         teléfono
         dirección.
        -->
-    <form id="form-example">
+    <form id="form-example" method="post" action="#">
         <h2>Formulario</h2>
         <fieldset>
             <legend>Completa con tus datos</legend>
         <div class="form-name">    
-            <label for="name">Nombre</label>
+            <label for="name">Nombre: </label>
             <input type="text" name="name">
         </div>
         <div>
-            <label for="lastname">Apellido</label>
+            <label for="lastname">Apellido: </label>
             <input type="text" name="lastname">
         </div>
         <div>
-            <label for="email">Email</label>
+            <label for="email">E-mail: </label>
             <input type="email" name="email">
         </div>
         <div>
-            <label for="phone">Telefono</label>
+            <label for="phone">Teléfono: </label>
             <input type="tel" name="phone">
         </div>
         <div>
@@ -39,7 +39,7 @@
             <input type="text" name="address">  
         </div>
         <div>
-            <button type="submit" value="Enviar" id="enviar">Enviar</button>
+            <input type="submit" value="Enviar" id="enviar"></input>
         </div>
     </fieldset>
     </form>
@@ -47,5 +47,41 @@
     <!--  Como segunda parte del ejercicio deberás crear una tabla, esta tabla tendrá 4 columnas y 4 filas, en esta tabla deberás hacer que:
         Una de las celdas ocupe dos columnas.
         Una de las celdas ocupe dos filas.  -->
+
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>Persona/juega</td>
+                <th>LOL</th>
+                <th>Valorant</th>
+                <th>CS GO</th>
+            </tr>
+            <tr>
+              <td>Juan</td>
+              <td colspan="2">NO</td>
+              <td>SI</td>
+            </tr>
+            <tr>
+              <td>Ana</td>
+              <td>NO</td>
+              <td>SI</td>
+              <td>NO</td>
+            </tr>
+            <tr>
+              <td>Pato</td>
+              <td>SI</td>
+              <td>NO</td>
+              <td rowspan=2>SI</td>
+            </tr>
+            <tr>
+              <td>Fran</td>
+              <td>NO</td>
+              <td>SI</td>
+            </tr>
+            <caption>
+                Tabla ejercicio 2
+              </caption>
+          </tbody>
+    </table>
 </body>
 </html>
