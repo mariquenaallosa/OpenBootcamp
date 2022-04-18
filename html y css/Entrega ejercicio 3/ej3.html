@@ -7,6 +7,19 @@
     <title>Ejercicio 3 - Curso HTML y CSS</title>
 </head>
 <body>
+    <!-- Para este ejercicio deberéis introducir una imagen y darle además de un texto alternativo.
+    Aparte, añadiréis un audio y un vídeo a vuestra         elección, deben tener algunos de los atributos vistos en las sesiones u otros que os parezcan interesantes. -->
+
+    <h2>Imagen</h2>
+    <picture>
+        <source media="(min-wdth: 300px) and (max-wdth: 600px)" srcset="images/chicas-super.webp" alt="Foto de las chichas superpoderosas">
+        <img src="images/chicas.jpg" alt="Foto de las chichas superpoderosas" width="100%">
+    </picture>
+
+    <h2>Audio</h2>
+    <audio src="audio/Hola-Adios.mp3" muted controls preload="auto">
     
+    <h2>Video</h2>
+    <iframe width="683" height="384" src="https://www.youtube.com/embed/K1DWCijvbCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
