@@ -13,24 +13,39 @@
         e-mail
         teléfono
         dirección.
-        Como segunda parte del ejercicio deberás crear una tabla, esta tabla tendrá 4 columnas y 4 filas, en esta tabla deberás hacer que:
-        Una de las celdas ocupe dos columnas.
-        Una de las celdas ocupe dos filas. -->
-    <form>
-        <label for="name">Nombre</label>
-        <input type="text" name="name">
-
-        <label for="lastname">Apellido</label>
-        <input type="text" name="lastname">
-
-        <label for="email">Email</label>
-        <input type="email" name="email">
-
-        <label for="phone">Telefono</label>
-        <input type="tel" name="phone">
-
-        <label for="address">Dirección</label>
-        <input type="text" name="address">    
+       -->
+    <form id="form-example" action="recibe2form.html" method="post">
+        <h2>Formulario</h2>
+        <fieldset>
+            <legend>Completa con tus datos</legend>
+        <div class="form-name">    
+            <label for="name">Nombre</label>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <label for="lastname">Apellido</label>
+            <input type="text" name="lastname">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label for="phone">Telefono</label>
+            <input type="tel" name="phone">
+        </div>
+        <div>
+            <label for="address">Dirección</label>
+            <input type="text" name="address">  
+        </div>
+        <div>
+            <button type="submit" value="Enviar" id="enviar">Enviar</button>
+        </div>
+    </fieldset>
     </form>
+
+    <!--  Como segunda parte del ejercicio deberás crear una tabla, esta tabla tendrá 4 columnas y 4 filas, en esta tabla deberás hacer que:
+        Una de las celdas ocupe dos columnas.
+        Una de las celdas ocupe dos filas.  -->
 </body>
 </html>
