@@ -1,13 +1,13 @@
 p{
-    color: lightcoral
+    color: #f08080
 }
 .miparrafo {
-    color: rgb(76, 58, 72)
+    color: #4c3a48
 }
 div > p {
-    color: rgb(255, 0, 0)
+    color: #ff0000
 }
 
 .miparrafo > p {
-    color: slateblue
+    color: #6a5acd
 }
