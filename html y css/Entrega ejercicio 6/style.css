@@ -1,0 +1,13 @@
+p{
+    color: lightcoral
+}
+.miparrafo {
+    color: rgb(76, 58, 72)
+}
+div > p {
+    color: rgb(255, 0, 0)
+}
+
+.miparrafo > p {
+    color: slateblue
+}
