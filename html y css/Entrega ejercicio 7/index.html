@@ -8,6 +8,28 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+    <!-- En este ejercicio deberéis crear una página con un formulario de inicio de sesión, está pagina tendrá:
+        Una imagen de fondo.
+        Un formulario de inicio de sesión, contendrá mail y contraseña, un recuadro seleccionable de "Acepto términos y condiciones" y un botón de enviar.
+        Validación de campos. -->
+<div class="container">
+    <div class="login-form">
+        <form>
+            <h1>Login form</h1>
+            <div class="login-form__field">
+                <input type="text" name="usuario" id="usuario" placeholder="Usuario" class="login-form__field--usuario" required>
+                
+            </div>
+            <div class="login-form__field">
+                <input type="password" name="password" required class="login-form__field--password" placeholder="password">
+            
+            </div>
+            <div class="login-form__field">
+                <input type="checkbox" name="check" class="login-form__field--checkbox"><label for="check">"Acepto términos y condiciones"</label>
+            </div>
+        </form>
+    </div>
+</div>
     
 </body>
 </html>
