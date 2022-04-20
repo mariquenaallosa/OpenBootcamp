@@ -4,10 +4,12 @@ html, body {
 }
 
 body {
+    background-color: #555;
     background-image: url(images/tech1.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    background-blend-mode:multiply;
     font-family: 'Akshar 300', sans-serif;
     color: #fff;
 }
