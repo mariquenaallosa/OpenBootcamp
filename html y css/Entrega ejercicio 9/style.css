@@ -1,0 +1,53 @@
+body , html {
+    margin:0;
+    background-color: #ddd;
+}
+div {
+    height: 200px;
+    width: 200px;
+    margin: 50px auto;
+}
+
+h1 {
+    margin-left: 20px;
+}
+h2 { margin-left: 40px;
+}
+
+.container1 {
+    background-color: #3d7864;
+}
+
+.container1:hover {
+    animation-name: an1;
+    animation-duration:3s;
+    animation-timing-function:ease;
+    animation-iteration-count:infinite;
+}
+
+.container2 {
+    border-radius: 50%;
+    background-color:#f08080;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.container2:hover {
+    animation-name: an2;
+    animation-duration:4s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:infinite;
+}
+
+
+@keyframes rotation {
+    10% {
+        bacground-color:#25493d;
+    }
+    20%{
+        rotate=(30deg);
+
+    }
+}
