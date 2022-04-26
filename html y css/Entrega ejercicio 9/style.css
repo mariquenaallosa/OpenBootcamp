@@ -37,17 +37,26 @@ h2 { margin-left: 40px;
 .container2:hover {
     animation-name: an2;
     animation-duration:4s;
-    animation-timing-function:ease-in;
+    animation-timing-function:ease-in-out;
     animation-iteration-count:infinite;
 }
 
 
-@keyframes rotation {
-    10% {
-        bacground-color:#25493d;
+@keyframes an1 {
+    from {
+        transform: rotate(0deg);
     }
-    20%{
-        rotate=(30deg);
+    to {
+        transform: rotate(359deg);
+    }
+}
 
+@keyframes an2 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        transform: translate(500px, 0);
     }
 }
