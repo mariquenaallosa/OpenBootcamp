@@ -13,8 +13,29 @@ html , body {
     margin:10px auto;
 }
 
-@media (max-width: 576px) {
+.media-container {
+    margin: 50px auto;
+}
+.media-container iframe {
+    width: 80%
+}
+.media-container img {
+    margin: 0 auto;
+    display: none;
+    width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
     .box {
         background-color: rgb(16, 104, 38);
+    }
+    .media-container img {
+        display: block;
+    }
+    .media-container iframe {
+        display: none;
     }
 }
